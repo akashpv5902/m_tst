@@ -11,7 +11,7 @@ const initialState = {
 export const productsFetch = createAsyncThunk(
     "products/productsFetch",
     async () =>{
-            const response = await  axios.get("http://localhost:5000/products")
+            const response = await  axios.get("https://react-cart-kzri.onrender.com/products")
             return response?.data
     }
 )
