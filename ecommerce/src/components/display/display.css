@@ -1,0 +1,44 @@
+.displayWrapper {
+
+    width: 100%;
+}
+
+.displayCategories {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Cat1 {
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+
+.Cat2 {
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+}
+
+.Cat3 {
+    background: rgb(131,58,180);
+background: linear-gradient(167deg, rgba(131,58,180,1) 0%, rgba(123,253,29,1) 50%, rgba(195,232,20,1) 100%);
+
+}
+
+.Cat1,
+.Cat2,
+.Cat3 {
+    height: 100px;
+    flex: 4;
+    margin-right: 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+
+
+}

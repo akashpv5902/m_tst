@@ -1,0 +1,26 @@
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    /* margin-right: 20px; */
+    
+   
+
+    
+}
+
+.container{
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+#cd{
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+}
