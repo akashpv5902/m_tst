@@ -25,7 +25,7 @@ export default function Items() {
   
   return (
     <div className='container'>
-        { isLoading ? (<p>loading...</p>
+        { isLoading ? (<p><img src='https://i.stack.imgur.com/kOnzy.gif'/></p>
          ): error ? ( <p>An error occured!!</p>
         ) :( <>
             
